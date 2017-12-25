@@ -11,7 +11,7 @@ Es un buen momento para revisarla con los comandos de esa sección y resolver la
 - ¿Que tipo de información tiene?
 - ¿Como se relacionan las tablas?
 
-#### ¿Cuantas tablas tiene esta base? 
+### ¿Cuantas tablas tiene esta base? 
 
 Para saberlo necesitaríamos usar el comando 
 
