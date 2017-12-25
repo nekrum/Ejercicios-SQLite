@@ -9,15 +9,19 @@ Por lo que se recomienda el uso de la misma versión para su correcta ejecución
 
 - Ubuntu & Debian
 
-     sudo apt-get install sqlite3 sqlite3-dev
+```bash
+sudo apt-get install sqlite3 sqlite3-dev
+```
 
 - RPM (CentOS, Fedora, OpenSuse, RedHat)
 
-    sudo yum install sqlite
+``` bash
+sudo yum install sqlite
+```
 
 ### Mac
 
-La mayoría de los equipos Mac vienen con **sqlite** insatalado. Esto se puede probar en la **consola** con el comando
+La mayoría de los equipos Mac vienen con **sqlite** instalado. Esto se puede probar en la **consola** con el comando
 `sqlite3`. En caso de que no se encuentre instalado es necesario descargar el archivo **zip** que se encuentra en el
 apartado _Precompiled Binaries for Mac OS X (x86)_ de [la página oficial](http://www.sqlite.org/download.html) del profecto 
 **sqlite**.
@@ -36,11 +40,12 @@ datos.
 
 > **Nota:**
 > El `sqlite.exe` que viene con el archivo **sqlite-tools-win32-x86-XXXXXXX.zip**, las X's pueden variar según la versión
-> del programa, cuando se ejecuta abre una terminal con la línea de comandos. Sin embargo como se anre en automatico
+> del programa, cuando se ejecuta abre una terminal con la línea de comandos. Sin embargo como se abre en automatico
 > necesitamos declarar la base de datos que usaremos. esto se hace con el comando:
 
-    .open [NOMBREDEARCHIVO]
-
+```
+.open [NOMBREDEARCHIVO]
+```
 
 ## Sobre estos ejercicios
 
@@ -49,6 +54,10 @@ conocer el manejo de bases de datos. No se enfoca por lo tanto al uso y gestión
 base por lo fácil que resulta su implementación.
 
 El comando **.help** permite acceder a las opciones de sqlite, sin embargo cualquier duda o problema con estos
-ejercicios la podemos discutir y revisar en la sección de issues del repositorio.
+ejercicios la podemos discutir y revisar en la sección de **issues** del repositorio.
 
 Espero este ejercicio sirva de ayuda bienvenido cualquier comentario o sugerencia.
+
+## Contenido
+
+- [Creación de Base de Datos](CreacionDB.md)
