@@ -60,4 +60,6 @@ Espero este ejercicio sirva de ayuda bienvenido cualquier comentario o sugerenci
 
 ## Contenido
 
-- [Creación de Base de Datos](CreacionDB.md)
+1. [Creación de Base de Datos](CreacionDB.md)
+2. [Exploración](Exploracion.md)
+3. [Base Chinook](BaseChinook.md)

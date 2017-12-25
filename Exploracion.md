@@ -45,7 +45,7 @@ Algunas de las bases de datos se pueden acceder de la siguiente forma:
 
 En **sqlite** existe un comando interno para listar las tablas `.tables` o se puede usar el comando:
 
-```
+```sql
 SELECT name FROM sqlite_master WHERE type='table';
 ```
 Este último tiene la ventaja de mostrar incluso las tablas que fueron adjuntadas.
@@ -59,7 +59,7 @@ Este último tiene la ventaja de mostrar incluso las tablas que fueron adjuntada
 Una ves identificada la tabla podemos revisar su contenido, para esto usaremos la tabla **libros** de la base
 **librosDB**:
 
-```
+```sql
 SELECT * FROM libros;
 ```
 
@@ -78,7 +78,7 @@ Si ejecutamos este código podemos ver que tiene las columnas _Autor_, _Titulo_,
 Estas columnas pueden extraerse por su nombre, sustituyendo el asterisco por los títulos de las columnas separados por
 comas.
 
-```
+```sql
 SELECT Autor, Editorial FROM libros;
 ```
 
